@@ -1,6 +1,5 @@
 import os
-from agents import Agent, OpenAIChatCompletionsModel
-from openai import AsyncOpenAI
+from agents import Agent, OpenAIChatCompletionsModel, AsyncOpenAI
 from dotenv import load_dotenv
 from function_tools import travel_info_generator, get_visa, get_flights, suggest_hotels
 

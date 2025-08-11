@@ -1,8 +1,7 @@
 import os
 import chainlit as cl
 from typing import cast
-from agents import Agent, Runner, OpenAIChatCompletionsModel
-from openai import AsyncOpenAI
+from agents import Agent, Runner, OpenAIChatCompletionsModel, AsyncOpenAI
 from agents.run import RunConfig
 from dotenv import load_dotenv
 from travel_agents import travel_agent
